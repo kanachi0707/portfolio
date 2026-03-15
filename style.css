@@ -93,10 +93,20 @@ button {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 0.04em;
+}
+
+.brand-mark {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .site-nav {
@@ -950,4 +960,9 @@ p {
   gap: 12px;
   margin-top: 20px;
 }
+
+
+
+
+
 
