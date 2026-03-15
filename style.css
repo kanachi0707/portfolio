@@ -95,7 +95,7 @@ button {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 1.8rem;
   font-weight: 700;
@@ -103,8 +103,8 @@ button {
 }
 
 .brand-mark {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   object-fit: contain;
   flex: 0 0 auto;
 }
@@ -960,9 +960,3 @@ p {
   gap: 12px;
   margin-top: 20px;
 }
-
-
-
-
-
-
