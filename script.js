@@ -3,7 +3,6 @@ const INSTAGRAM_FALLBACK_URL = "https://www.instagram.com/p/DVM3FVxErTp/";
 
 const menuButton = document.querySelector(".menu-button");
 const siteNav = document.querySelector(".site-nav");
-const currentYear = document.getElementById("current-year");
 const revealItems = document.querySelectorAll(".reveal");
 const instagramSlots = document.querySelectorAll(".instagram-live-slot");
 const footerMessagesLink = document.getElementById("footer-messages-link");
@@ -20,9 +19,6 @@ if (footerMessagesLink) {
     const randomIndex = Math.floor(Math.random() * messagePages.length);
     window.location.href = messagePages[randomIndex];
   });
-}
-if (currentYear) {
-  currentYear.textContent = new Date().getFullYear();
 }
 
 if (menuButton && siteNav) {
@@ -170,7 +166,3 @@ function formatUpdatedAt(value) {
     minute: "2-digit",
   }).format(date);
 }
-
-
-
-
