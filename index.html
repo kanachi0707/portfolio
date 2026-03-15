@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kanachi Portfolio</title>
+  <meta name="description" content="kanachiのWebアプリ、音楽リリース、政治系YouTube、note、Instagram、GPTsをまとめたポートフォリオサイト。">
+  <meta property="og:title" content="kanachi Portfolio">
+  <meta property="og:description" content="制作と発信を横断して見せる、デザイナーライクなポートフォリオサイト。">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f2ece4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top">kanachi Portfolio</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="主要ナビゲーション">
+        <a href="#profile">Profile</a>
+        <a href="#ai-kanachi">AI kanachi</a>
+        <a href="#works">Web Apps</a>
+        <a href="#music">Music</a>
+        <a href="#channel">YouTube</a>
+        <a href="#writing">note</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <div class="hero-copy hero-copy--wide">
+          <div class="hero-preview-card hero-preview-card--wide">
+            <p class="meta-line">Morning Feed</p>
+            <div class="instagram-live-slot" data-variant="hero">
+              <p class="instagram-loading">Instagram投稿を読み込み中です。</p>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a class="button button--solid" href="https://www.instagram.com/kanachi0707/" target="_blank" rel="noreferrer">Instagramを見る</a>
+            <a class="button button--ghost" href="https://x.com/kanachi0707" target="_blank" rel="noreferrer">Xを見る</a>
+            <a class="button button--ghost" href="#contact">Instagram DMで連絡</a>
+          </div>
+        </div>
+        <aside id="profile" class="profile-card">
+          <div class="profile-image-wrap">
+            <img class="profile-image" src="./image/kanachihub.png" alt="kanachiのプロフィール画像">
+          </div>
+          <div class="profile-body">
+            <p class="panel-label">Profile</p>
+            <h2>kanachi</h2>
+            <p class="profile-role">AIクリエイター</p>
+            <p class="profile-text">
+              AIを活用した制作と発信を横断しながら、Web、音楽、動画、文章、SNSをつなげて世界観をつくるクリエイター。
+              毎日のアウトプットと継続的な実験を、そのまま活動の価値に変えています。
+            </p>
+            <div class="tag-row profile-tags">
+              <span>AI Creator</span>
+              <span>Web Apps</span>
+              <span>Music</span>
+              <span>Political YouTube</span>
+            </div>
+            <div class="profile-links">
+              <a class="text-link" href="https://x.com/kanachi0707" target="_blank" rel="noreferrer">Xを見る</a>
+              <a class="text-link" href="https://www.instagram.com/kanachi0707/" target="_blank" rel="noreferrer">Instagramを見る</a>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="intro-grid reveal">
+        <article class="intro-card intro-card--accent">
+          <p class="card-kicker">Approach</p>
+          <h2>機能だけでなく、届き方まで設計する。</h2>
+          <p>
+            音楽や動画、note、アプリを通して、自分が本当に作りたいものを形にしていきたい。
+            それを届けたいと思っているけれど、必ずしも届くとは限らないし、そこに強制はしたくない。
+            だからこそ、自然に届くこと、そしてまた別の誰かが届けたくなることまで含めて、表現と導線を設計しています。
+            自然界が矛盾なく存在しているように、私たちもまた、自由に、自然に、ありのままに存在できればいい。そんな在り方を少しでも手伝える表現を目指しています。
+          </p>
+        </article>
+        <article id="ai-kanachi" class="intro-card ai-card ai-card--media">
+          <div class="ai-card__visual">
+            <img class="ai-card__image" src="./image/aikanachi.jpg" alt="AI kanachi のイメージ">
+          </div>
+          <div class="ai-card__body">
+            <p class="card-kicker">Custom GPTs</p>
+            <h2>AI kanachi</h2>
+            <p>
+              私の投稿を学習させたGPTs。これまでの発信トーンや視点を引き継ぎながら、kanachiらしい対話やアイデア整理ができるAIです。
+            </p>
+            <a class="text-link" href="https://chatgpt.com/g/g-675281b76c7881918175779fa678badf-ai-kanachi" target="_blank" rel="noreferrer">AI kanachi を開く</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="works" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-label">Selected Works</p>
+          <h2>Web Apps</h2>
+          <p>アプリそのものの機能だけでなく、触れる前に伝わる空気感や世界観も含めて見せています。</p>
+        </div>
+        <div class="cards-grid cards-grid--works">
+          <article class="project-card project-card--media featured-card">
+            <a class="project-visual" href="https://kanachi0707.github.io/memorypuzzle/" target="_blank" rel="noreferrer">
+              <img class="project-ogp" src="./image/OGP_mempuz.jpg" alt="みっちーめもぱず のOGP画像">
+            </a>
+            <div class="project-content">
+              <p class="meta-line">Featured App</p>
+              <h3>みっちーめもぱず</h3>
+              <p>
+                キャラクター性と遊び心をまとわせた、記憶系のWebアプリ。
+                OGPの印象も含めて、見た瞬間の楽しさが伝わるような世界観設計が魅力です。
+              </p>
+              <div class="tag-row">
+                <span>Game UI</span>
+                <span>Visual Design</span>
+                <span>Playful</span>
+              </div>
+              <a class="text-link" href="https://kanachi0707.github.io/memorypuzzle/" target="_blank" rel="noreferrer">アプリを見る</a>
+            </div>
+          </article>
+          <article class="project-card project-card--media">
+            <a class="project-visual" href="https://kanachi0707.github.io/warikan/" target="_blank" rel="noreferrer">
+              <img class="project-ogp" src="./image/OGP_warikan.jpg" alt="わりかんみっちー のOGP画像">
+            </a>
+            <div class="project-content">
+              <p class="meta-line">LATEST APP</p>
+              <h3>わりかんみっちー</h3>
+              <p>
+                少ない入力で割り勘計算から精算まで進められる、シンプルなWebアプリ。
+                実用性と親しみやすいトーンを両立した設計です。
+              </p>
+              <div class="tag-row">
+                <span>UI Design</span>
+                <span>Frontend</span>
+                <span>Mobile First</span>
+              </div>
+              <a class="text-link" href="https://kanachi0707.github.io/warikan/" target="_blank" rel="noreferrer">アプリを見る</a>
+            </div>
+          </article>
+          <article class="project-card project-card--placeholder">
+            <p class="meta-line">New App</p>
+            <h3>Coming Soon ...</h3>
+          </article>
+        </div>
+      </section>
+
+      <div class="guiding-line reveal">
+        <span class="guiding-line__rule" aria-hidden="true"></span>
+        <a class="guiding-line__link" href="./words-help-ever.html">Help ever, Hurt never, Give forever.</a>
+        <span class="guiding-line__rule" aria-hidden="true"></span>
+      </div>
+
+      <section id="music" class="content-section content-section--split reveal">
+        <div class="section-heading">
+          <p class="section-label">Music</p>
+          <h2>音楽</h2>
+          <p>楽曲やMVを通して、そのときどきの感情や景色を届けます。</p>
+        </div>
+        <div class="split-layout">
+          <article class="spotlight-card">
+            <p class="meta-line">Music Channel</p>
+            <h3>kanachi sound</h3>
+            <p>音楽リリースやMV、サウンドの世界観をまとめて追えるYouTubeチャンネルです。</p>
+            <a class="spotlight-card__visual" href="https://www.youtube.com/playlist?list=OLAK5uy_mONM-53iprDmlLLhr1kN8z2uVm4M3Mjqo" target="_blank" rel="noreferrer">
+              <img class="spotlight-card__image" src="https://i.ytimg.com/vi/_BJZ_tHwANk/hqdefault.jpg" alt="Dreamin' Glory ジャケット画像">
+            </a>
+            <div class="spotlight-actions">
+              <a class="button button--solid" href="https://www.youtube.com/@kanachisound" target="_blank" rel="noreferrer">音楽チャンネルを見る</a>
+              <a class="button button--ghost" href="https://www.youtube.com/playlist?list=OLAK5uy_mONM-53iprDmlLLhr1kN8z2uVm4M3Mjqo" target="_blank" rel="noreferrer">アルバム "Dreamin' Glory" を聴く</a>
+            </div>
+          </article>
+          <div class="stack-list">
+            <article class="mini-card mini-card--media">
+              <a class="mini-card__visual" href="https://youtube.com/playlist?list=OLAK5uy_mSwegW7PwsdAsZ01VCBwgesSqKFGflDHw&si=W1vGJjs-WfnSrsyW" target="_blank" rel="noreferrer">
+                <img class="mini-card__image" src="https://i.ytimg.com/vi/WN7avp5xdLE/hqdefault.jpg" alt="SUPERSTAR サムネイル">
+              </a>
+              <div class="mini-card__body">
+                <p class="meta-line">Latest Release</p>
+                <h3>SUPERSTAR</h3>
+                <a class="text-link" href="https://youtube.com/playlist?list=OLAK5uy_mSwegW7PwsdAsZ01VCBwgesSqKFGflDHw&si=W1vGJjs-WfnSrsyW" target="_blank" rel="noreferrer">新曲をチェック</a>
+              </div>
+            </article>
+            <article class="mini-card mini-card--media">
+              <a class="mini-card__visual" href="https://www.youtube.com/watch?v=tKGsreGYMgE" target="_blank" rel="noreferrer">
+                <img class="mini-card__image" src="https://i.ytimg.com/vi/tKGsreGYMgE/hqdefault.jpg" alt="kanachi - Forgiveness Music Video サムネイル">
+              </a>
+              <div class="mini-card__body">
+                <p class="meta-line">Past Release</p>
+                <h3>kanachi - "Forgiveness" Music Video</h3>
+                <a class="text-link" href="https://www.youtube.com/watch?v=tKGsreGYMgE" target="_blank" rel="noreferrer">動画を見る</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="guiding-line guiding-line--forest reveal">
+        <span class="guiding-line__rule" aria-hidden="true"></span>
+        <a class="guiding-line__link" href="./words-interpretations.html">There are no facts, only interpretations.</a>
+        <span class="guiding-line__rule" aria-hidden="true"></span>
+      </div>
+
+      <section id="channel" class="content-section reveal">
+        <div class="section-heading">
+          <p class="section-label">Political Channel</p>
+          <h2>YouTubeチャンネル</h2>
+          <p>音楽と政治を融合させた独自の政治チャンネルです。</p>
+        </div>
+        <div class="channel-layout channel-layout--stacked">
+          <article class="channel-card">
+            <p class="meta-line">Channel Concept</p>
+            <h3>社会や政治を、自分の感覚ごと届ける</h3>
+            <p>
+              政治は、言葉で伝えるもの。けれど、言葉だけでは伝わらないものも、きっとある。
+              このチャンネルでは、情報や主張だけでなく、音、間、空気感、ふとした表情や佇まいまで含めて、政治の在り方そのものを表現しようとしています。
+            </p>
+            <a class="text-link" href="https://www.youtube.com/@kanachi0707" target="_blank" rel="noreferrer">チャンネルを見る</a>
+          </article>
+          <div class="video-grid">
+            <article class="video-card">
+              <div class="video-thumb-wrap">
+                <img class="video-thumb" src="https://img.youtube.com/vi/J1ZR496Zzzc/hqdefault.jpg" alt="再生の道 Behind the Scenes サムネイル">
+              </div>
+              <div class="video-card__body">
+                <p class="meta-line">Video 01</p>
+                <h3>再生の道 Behind the Scenes</h3>
+                <p>
+                  政治は、言葉で伝えるもの。けれど、言葉だけでは伝わらないものも、きっとある。
+                  該当演説の内容そのものではなく、言葉のない、ふとした瞬間、そんな何気ないシーンを中心に編集しました。
+                </p>
+                <a class="text-link" href="https://www.youtube.com/watch?v=J1ZR496Zzzc" target="_blank" rel="noreferrer">動画を見る</a>
+              </div>
+            </article>
+            <article class="video-card">
+              <div class="video-thumb-wrap">
+                <img class="video-thumb" src="https://img.youtube.com/vi/C3FgVC5IKrI/hqdefault.jpg" alt="みっちーCMコンテスト最優秀作品 サムネイル">
+              </div>
+              <div class="video-card__body">
+                <p class="meta-line">Video 02</p>
+                <h3>【再生の道】みっちーCMコンテスト最優秀作品 60秒版 ～もっと歩こう編～</h3>
+                <p>
+                  再生の道のマスコットキャラクター「みっちー」が誕生しました。
+                  企画されたキャラクターCM動画投稿コンテスト用の動画を拡張し、広く国民が政治に参加するイメージを描きました。
+                </p>
+                <a class="text-link" href="https://www.youtube.com/watch?v=C3FgVC5IKrI" target="_blank" rel="noreferrer">動画を見る</a>
+              </div>
+            </article>
+            <article class="video-card">
+              <div class="video-thumb-wrap">
+                <img class="video-thumb" src="https://img.youtube.com/vi/yLJySVWP5ug/hqdefault.jpg" alt="衆院選2026 全政党応援動画 サムネイル">
+              </div>
+              <div class="video-card__body">
+                <p class="meta-line">Video 03</p>
+                <h3>【衆院選2026】全政党応援動画 #日本列島を動かそう 非公式</h3>
+                <p>
+                  衆議院選挙2026において全政党・全候補者を分け隔てなく応援したいと考えて創作。
+                  無所属もボランティアも有権者も、無事に選挙を戦い抜いてほしいという願いを込めて。
+                </p>
+                <a class="text-link" href="https://youtu.be/yLJySVWP5ug" target="_blank" rel="noreferrer">動画を見る</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="guiding-line guiding-line--paper reveal">
+        <span class="guiding-line__rule" aria-hidden="true"></span>
+        <a class="guiding-line__link" href="./words-existence.html">Existence precedes essence.</a>
+        <span class="guiding-line__rule" aria-hidden="true"></span>
+      </div>
+
+      <section id="writing" class="content-section content-section--editorial reveal">
+        <div class="section-heading">
+          <p class="section-label">Writing</p>
+          <h2>note "kanachiの文脈"</h2>
+          <p>普段の目線からほぼ毎日投稿しています。哲学や心理学、政治、テクノロジーまで、日々の違和感や発見を自分の言葉で掘り下げています。</p>
+        </div>
+        <div class="editorial-grid editorial-grid--notes">
+          <article class="essay-card essay-card--media">
+            <div class="essay-visual">
+              <img class="essay-ogp" src="https://assets.st-note.com/production/uploads/images/150839181/rectangle_large_type_2_ae4a0f712758dc8754ea646e160f1f69.png?width=1200" alt="大嫌いな日本のために闘った夏の日 の見出し画像">
+            </div>
+            <div class="essay-content">
+              <p class="meta-line">Note Article 01</p>
+              <h3>大嫌いな日本のために闘った夏の日</h3>
+              <a class="text-link" href="https://note.com/kanach/n/n4ac36de35c74" target="_blank" rel="noreferrer">記事を読む</a>
+            </div>
+          </article>
+          <article class="essay-card essay-card--media">
+            <div class="essay-visual">
+              <img class="essay-ogp" src="https://assets.st-note.com/production/uploads/images/210853476/rectangle_large_type_2_9e786cea6ab2af4f34408410202eebd1.png?width=1280" alt="これが最後の言葉だったとしたら の見出し画像">
+            </div>
+            <div class="essay-content">
+              <p class="meta-line">Note Article 02</p>
+              <h3>これが最後の言葉だったとしたら</h3>
+              <a class="text-link" href="https://note.com/kanach/n/n2f4f0486bec9" target="_blank" rel="noreferrer">記事を読む</a>
+            </div>
+          </article>
+          <article class="essay-card essay-card--media">
+            <div class="essay-visual">
+              <img class="essay-ogp" src="https://assets.st-note.com/production/uploads/images/7243521/rectangle_large_type_2_eeba232ff3f3f13e1de22b255ece7ba8.jpg?width=1280" alt="議論空間としてのSNSへ、僅かな賭け の見出し画像">
+            </div>
+            <div class="essay-content">
+              <p class="meta-line">Note Article 03</p>
+              <h3>議論空間としてのSNSへ、僅かな賭け</h3>
+              <a class="text-link" href="https://note.com/kanach/n/ne1556537ce5f" target="_blank" rel="noreferrer">記事を読む</a>
+            </div>
+          </article>
+        </div>
+        <a class="text-link text-link--section" href="https://note.com/kanach" target="_blank" rel="noreferrer">noteクリエイターページを見る</a>
+      </section>
+
+      <section id="contact" class="contact-section reveal">
+        <p class="section-label">Contact / Links</p>
+        <h2>連絡はSNSから。</h2>
+        <p>
+          DM等でご連絡ください。
+          活動全体を追うなら X のタイムラインや note の投稿をあわせてどうぞ。
+        </p>
+        <div class="contact-actions">
+          <a class="button button--solid" href="https://www.instagram.com/kanachi0707/" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="button button--ghost" href="https://x.com/kanachi0707" target="_blank" rel="noreferrer">X</a>
+          <a class="button button--ghost" href="https://www.tiktok.com/@kanachi22" target="_blank" rel="noreferrer">TikTok</a>
+        </div>
+        <div class="link-cluster link-cluster--nav">
+          <a href="#profile">Profile</a>
+          <a href="#ai-kanachi">AI kanachi</a>
+          <a href="#works">Web Apps</a>
+          <a href="#music">Music</a>
+          <a href="#channel">YouTube</a>
+          <a href="#writing">note</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="current-year"></span> kanachi</p>
+      <p><a id="footer-messages-link" class="footer-message-link" href="./words-help-ever.html">Messages</a></p>
+    </footer>
+  </div>
+
+  <script src="./instagram-latest.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

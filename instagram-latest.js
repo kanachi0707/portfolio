@@ -1,0 +1,9 @@
+﻿window.__INSTAGRAM_LATEST_POST__ = {
+    "url":  "https://www.instagram.com/p/DV4s0VhgbvX/",
+    "caption":  "#GoodMorningKanachi☀️\n\n出逢わなければ別れはこない\n出逢わなければ人生に幸福はない\n\nWithout meeting you, there would be no goodbye.\nWithout meeting you, there would be no happiness in my life.",
+    "updatedAt":  "2026-03-16T04:27:08+09:00",
+    "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
+    "source":  "instagram-web-profile-api",
+    "status":  "ok",
+    "postTakenAt":  "2026-03-15T01:03:26+00:00"
+};
