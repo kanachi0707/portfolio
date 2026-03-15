@@ -1,0 +1,18 @@
+﻿{
+  "name": "kanachi Portfolio",
+  "short_name": "kanachi",
+  "description": "kanachiのWebアプリ、音楽、YouTube、note、SNSをまとめたポートフォリオサイト",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2ece4",
+  "theme_color": "#f2ece4",
+  "icons": [
+    {
+      "src": "./image/kanachihub.png",
+      "sizes": "1280x1280",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
