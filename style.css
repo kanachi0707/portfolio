@@ -20,6 +20,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -812,13 +814,43 @@ p {
   }
 
   .site-header {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 10px;
     border-radius: 28px;
     padding: 14px 16px;
   }
 
   .menu-button {
     display: inline-flex;
+    white-space: nowrap;
+  }
+
+  .brand {
+    min-width: 0;
+    gap: 6px;
+    font-size: 1.35rem;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .brand-mark {
+    width: 14px;
+    height: 14px;
+  }
+
+  .brand span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .menu-button {
+    margin-left: 0;
+    flex: 0 0 auto;
+    align-self: center;
   }
 
   .site-nav {
@@ -960,3 +992,27 @@ p {
   gap: 12px;
   margin-top: 20px;
 }
+
+
+
+
+.flower-divider {
+  display: grid;
+  grid-template-columns: minmax(80px, 1fr) auto minmax(80px, 1fr);
+  align-items: center;
+  gap: 14px;
+  margin: 8px 0 34px;
+}
+
+.flower-divider__rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(171, 79, 45, 0.32), transparent);
+}
+
+.flower-divider__icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  opacity: 0.86;
+}
+
