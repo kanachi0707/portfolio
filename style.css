@@ -542,6 +542,17 @@ p {
   padding: 24px;
 }
 
+.video-card__body h3 {
+  font-family: "Manrope", "Aptos", sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.video-card__title--compact {
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  line-height: 1.45;
+}
+
 .project-card--placeholder,
 .essay-card--placeholder {
   display: grid;
@@ -1016,6 +1027,3 @@ p {
   object-fit: contain;
   opacity: 0.86;
 }
-
-
-
