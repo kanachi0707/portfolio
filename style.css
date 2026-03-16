@@ -238,8 +238,8 @@ button {
 .profile-role {
   color: var(--accent);
   font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-transform: none;
 }
 
 .profile-text {
@@ -565,12 +565,13 @@ p {
 .tag-row span {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  padding: 0 12px;
+  min-height: 32px;
+  padding: 0 10px;
   border: 1px solid rgba(27, 23, 20, 0.1);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.48);
   color: var(--ink);
+  font-size: 0.82rem;
 }
 
 .text-link {
@@ -1015,4 +1016,6 @@ p {
   object-fit: contain;
   opacity: 0.86;
 }
+
+
 
