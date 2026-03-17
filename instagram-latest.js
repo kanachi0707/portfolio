@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DV7OkBXAUD2/",
-    "caption":  "#GoodMorningKanachi☀️\n\nひとりでは届かない理想を\n仲間と追いかけてみよう\n自分の使い道がそこにきっとある\n\nChase the ideals you cannot reach alone\nwith your companions.\nThere you will surely find your place.",
-    "updatedAt":  "2026-03-17T12:00:33+09:00",
+    "url":  "https://www.instagram.com/p/DV9dw7BkgZN/",
+    "caption":  "#GoodMorningKanachi☀️\n\n苦手な事も100回繰り返せば得意に変わる\nそれでも苦手なら1000回繰り返すだけだ\n\nDo something you’re bad at a hundred times, and it becomes a strength.\nIf it’s still hard, then do it a thousand times.",
+    "updatedAt":  "2026-03-17T12:09:40+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
-    "source":  "fallback",
-    "status":  "fallback",
-    "error":  "Instagram profile endpoint returned empty response."
+    "source":  "instagram-web-profile-api",
+    "status":  "ok",
+    "postTakenAt":  "2026-03-16T21:28:44+00:00"
 };
