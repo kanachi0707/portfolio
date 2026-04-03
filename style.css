@@ -599,13 +599,23 @@ p {
 
 .split-layout,
 .channel-layout,
-.editorial-grid {
+.editorial-grid,
+.music-layout,
+.music-grid {
   display: grid;
   gap: 18px;
 }
 
+.music-layout {
+  gap: 20px;
+}
+
 .split-layout {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.7fr);
+}
+
+.music-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .stack-list,
@@ -625,6 +635,13 @@ p {
 .mini-card,
 .video-item {
   padding: 24px;
+}
+
+.spotlight-card--music {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
+  align-items: center;
+  gap: 24px;
 }
 
 .channel-layout {
@@ -783,6 +800,7 @@ p {
   .intro-grid,
   .cards-grid--works,
   .split-layout,
+  .music-grid,
   .channel-layout,
   .video-grid,
   .editorial-grid,
@@ -792,6 +810,10 @@ p {
 
   .hero-copy {
     min-height: auto;
+  }
+
+  .spotlight-card--music {
+    grid-template-columns: 1fr;
   }
 
   .profile-card {
@@ -993,10 +1015,19 @@ p {
   border: 1px solid rgba(27, 23, 20, 0.08);
 }
 
+.spotlight-card__visual--music {
+  margin-top: 0;
+  align-self: stretch;
+}
+
 .spotlight-card__image {
   width: 100%;
   aspect-ratio: 1.4 / 1;
   object-fit: cover;
+}
+
+.spotlight-card__image--music {
+  aspect-ratio: 2.2 / 1;
 }
 
 .spotlight-actions {
@@ -1028,3 +1059,44 @@ p {
   object-fit: contain;
   opacity: 0.86;
 }
+
+
+
+
+.video-thumb-wrap {
+  display: block;
+}
+
+
+
+.channel-layout--stacked .channel-card {
+  min-height: auto;
+  padding-bottom: 24px;
+}
+
+
+
+.button--brown {
+  border-color: rgba(117, 78, 46, 0.35);
+  background: rgba(117, 78, 46, 0.92);
+  color: #f8f2ea;
+}
+
+
+.button--youtube {
+  background: #d93025;
+  color: #fff4f1;
+}
+
+.button--spotify {
+  border-color: rgba(30, 185, 84, 0.35);
+  background: rgba(30, 185, 84, 0.92);
+  color: #f3fff7;
+}
+
+.button--apple {
+  border-color: rgba(17, 17, 17, 0.35);
+  background: rgba(17, 17, 17, 0.94);
+  color: #f7f7f7;
+}
+
