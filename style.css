@@ -549,6 +549,13 @@ p {
   line-height: 1.25;
 }
 
+.project-title--compact {
+  font-size: clamp(1.55rem, 1.95vw, 1.8rem);
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
 .video-card__body h3 {
   font-family: "Manrope", "Aptos", sans-serif;
   font-weight: 700;
