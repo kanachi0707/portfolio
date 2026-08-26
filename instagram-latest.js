@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DccjuSLB9e4/",
-    "caption":  "#GoodMorningKanachi \n\n孤独にならなければ、 \n聞こえない自分の声がある。\n\nThere are parts of your own voice \nyou can only hear in solitude.",
-    "updatedAt":  "2026-08-25T12:00:04+09:00",
+    "url":  "https://www.instagram.com/p/DcfFp2ohf__/",
+    "caption":  "#GoodMorningKanachi \n\n迷いを連れて、進んでいく。\n迷ったことが良かったと思える場所に辿り着くまで。\n\nKeep moving forward with your doubts beside you, \nuntil you reach a place where you’re glad you once hesitated.",
+    "updatedAt":  "2026-08-26T12:00:04+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-08-25T02:24:46+00:00"
+    "postTakenAt":  "2026-08-26T02:00:13+00:00"
 };
