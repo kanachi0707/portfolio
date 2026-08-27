@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DcfFp2ohf__/",
-    "caption":  "#GoodMorningKanachi \n\n迷いを連れて、進んでいく。\n迷ったことが良かったと思える場所に辿り着くまで。\n\nKeep moving forward with your doubts beside you, \nuntil you reach a place where you’re glad you once hesitated.",
-    "updatedAt":  "2026-08-26T12:00:04+09:00",
+    "url":  "https://www.instagram.com/p/DchfScJhAK2/",
+    "caption":  "#GoodMorningKanachi \n\n消えていく言葉も\n増えていく言葉も\nどちらも届けたかった想い\n\nSome words fade. \nSome words spread. \nBut every one of them came from something I wanted to share.",
+    "updatedAt":  "2026-08-27T12:00:04+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-08-26T02:00:13+00:00"
+    "postTakenAt":  "2026-08-27T00:22:12+00:00"
 };
